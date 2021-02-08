@@ -28,6 +28,12 @@ namespace FlutterwaveServices.MovieAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddRouting(options =>
+            {
+                options.LowercaseUrls = true;
+                options.LowercaseQueryStrings = true;
+            });
+
             services.AddSwaggerDoc("v1","Movie API", "Flutter movie api test");
             services.AddSingleton<MoviceService>();
         }
