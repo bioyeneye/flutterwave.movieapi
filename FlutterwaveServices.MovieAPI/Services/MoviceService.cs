@@ -152,8 +152,9 @@ namespace FlutterwaveServices.MovieAPI.Services
             }
 
             return moviesStatsReturnModels
-                .OrderByDescending(c => c.averageWatchDurationS)
-                .ThenByDescending(c => c.releaseYear).ToList();
+                .OrderByDescending(c => c.watches)
+                .ThenByDescending(c => c.releaseYear)
+                .ToList();
         }
     }
 }
