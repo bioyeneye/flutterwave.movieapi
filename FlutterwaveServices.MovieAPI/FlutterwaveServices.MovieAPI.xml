@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlutterwaveServices.MovieAPI</name>
+    </assembly>
+    <members>
+        <member name="P:FlutterwaveServices.MovieAPI.Controllers.MetaDataController.MoviceService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FlutterwaveServices.MovieAPI.Controllers.MoviesController.MoviceService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FlutterwaveServices.MovieAPI.Extensions.ServiceCollectionsExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Extensions.ServiceCollectionsExtension.AddSwaggerDoc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <param name="version"></param>
+            <param name="title"></param>
+            <param name="description"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FlutterwaveServices.MovieAPI.Model.MoviesStatsModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FlutterwaveServices.MovieAPI.Model.MoviesStatsModel.MovieId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FlutterwaveServices.MovieAPI.Model.MoviesStatsModel.WatchDurationMs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FlutterwaveServices.MovieAPI.Model.MoviesStatsReturnModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FlutterwaveServices.MovieAPI.Services.MoviceService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Services.MoviceService.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Services.MoviceService.CreateMovieMetaDataModel(FlutterwaveServices.MovieAPI.Model.MovieMetaDataModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Services.MoviceService.GetMovieMetaDataModels">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Services.MoviceService.GetMovieMetaDataModelsByMovieId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="movieId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Services.MoviceService.GetMoviesStatsModels">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Services.MoviceService.GetMoviesStatsModelsForStatus">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FlutterwaveServices.MovieAPI.Utilities.CsvData">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

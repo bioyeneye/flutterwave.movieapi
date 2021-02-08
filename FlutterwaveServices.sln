@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlutterwaveServices.MovieAPI", "FlutterwaveServices.MovieAPI\FlutterwaveServices.MovieAPI.csproj", "{FACF2E3E-2181-43F9-BBC0-A89F1AEE4579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACF2E3E-2181-43F9-BBC0-A89F1AEE4579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACF2E3E-2181-43F9-BBC0-A89F1AEE4579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACF2E3E-2181-43F9-BBC0-A89F1AEE4579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACF2E3E-2181-43F9-BBC0-A89F1AEE4579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D6AE722-A59E-42CE-8D7F-B62F51431321}
+	EndGlobalSection
+EndGlobal
