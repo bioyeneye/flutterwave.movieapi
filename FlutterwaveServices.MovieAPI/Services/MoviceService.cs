@@ -146,7 +146,7 @@ namespace FlutterwaveServices.MovieAPI.Services
                                           .Aggregate((a, b) => a + b);
 
                     //long sumOfWatches = moviesStats.Sum(c => c.WatchDurationMs);
-                    MoviesStatsReturnModel.averageWatchDurationS = sum / moviesStats.Count;
+                    MoviesStatsReturnModel.averageWatchDurations = sum / moviesStats.Count;
                     moviesStatsReturnModels.Add(MoviesStatsReturnModel);
                 }
             }
