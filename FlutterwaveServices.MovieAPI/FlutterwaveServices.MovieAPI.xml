@@ -9,10 +9,35 @@
             
             </summary>
         </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Controllers.MetaDataController.#ctor(FlutterwaveServices.MovieAPI.Services.MoviceService)">
+            <summary>
+            
+            </summary>
+            <param name="moviceService"></param>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Controllers.MetaDataController.Get(System.Int32)">
+            <summary>
+            Get the movie metadata
+            </summary>
+            <param name="movieId">Movie Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Controllers.MetaDataController.Post(FlutterwaveServices.MovieAPI.Model.MovieMetaDataModel)">
+            <summary>
+            Post Movie metadata
+            </summary>
+            <param name="model"></param>
+        </member>
         <member name="P:FlutterwaveServices.MovieAPI.Controllers.MoviesController.MoviceService">
             <summary>
             
             </summary>
+        </member>
+        <member name="M:FlutterwaveServices.MovieAPI.Controllers.MoviesController.Stats">
+            <summary>
+            Get movie stats
+            </summary>
+            <returns></returns>
         </member>
         <member name="T:FlutterwaveServices.MovieAPI.Extensions.ServiceCollectionsExtension">
             <summary>

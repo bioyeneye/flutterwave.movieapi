@@ -24,6 +24,10 @@ namespace FlutterwaveServices.MovieAPI.Controllers
             MoviceService = moviceService;
         }
 
+        /// <summary>
+        /// Get movie stats
+        /// </summary>
+        /// <returns></returns>
         [HttpGet()]
         [ProducesResponseType(typeof(IEnumerable<MoviesStatsReturnModel>), StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<MoviesStatsReturnModel>> Stats()

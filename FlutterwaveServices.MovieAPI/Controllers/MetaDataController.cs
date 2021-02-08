@@ -19,12 +19,21 @@ namespace FlutterwaveServices.MovieAPI.Controllers
         /// 
         /// </summary>
         public MoviceService MoviceService { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="moviceService"></param>
         public MetaDataController(MoviceService moviceService)
         {
             MoviceService = moviceService;
         }
 
-        // GET api/<MetaDataController>/5
+        /// <summary>
+        /// Get the movie metadata
+        /// </summary>
+        /// <param name="movieId">Movie Id</param>
+        /// <returns></returns>
         [HttpGet("{movieId}")]
         [ProducesResponseType(typeof(IEnumerable<MovieMetaDataModel>), StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<MovieMetaDataModel>> Get(int movieId)
@@ -32,7 +41,10 @@ namespace FlutterwaveServices.MovieAPI.Controllers
             return Ok(MoviceService.GetMovieMetaDataModelsByMovieId(movieId));
         }
 
-        // POST api/<MetaDataController>
+        /// <summary>
+        /// Post Movie metadata
+        /// </summary>
+        /// <param name="model"></param>
         [HttpPost]
         public void Post([FromBody] MovieMetaDataModel model)
         {
